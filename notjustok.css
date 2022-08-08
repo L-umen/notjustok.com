@@ -14,15 +14,11 @@ body,html{
     font-family: three;
     src: url(../multimedia/Neue-Haas-Unica-Pro/Neue-Haas-Unica-Pro/NeueHaasUnicaPro-Thin.ttf);
 }
-/* @media only screen and (min-width: 1126px) {
-    .item1 {
-        width: 200px;
-        height: 200px;
-        background-color:#2D3243 ;
-        border: 1px solid black;
-        display:;
-    } */
-    
+ @media screen and (min-width:768px) {
+    .box1{
+        grid-template-columns: 1fr 1fr;
+    } 
+ }    
 
 .body .dash{
     width: 100%;
