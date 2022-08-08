@@ -29,8 +29,8 @@ body,html{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-left: 115px !important;
-    padding-right: 115px !important;
+    /* padding-left: 115px !important;
+    padding-right: 115px !important; */
     z-index: 1;
 }
 .notjustok{
@@ -66,6 +66,8 @@ dt{
     position: relative;
     right: 8%;
     font-family: one;   
+    display: flex;
+    /* overflow: scroll; */
 }
 .item1 div:hover{
     border-bottom: 4px solid #FF6600;
